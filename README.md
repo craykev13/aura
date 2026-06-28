@@ -95,3 +95,59 @@ The goal is to build the platform professionally from the ground up with a stron
 ## License
 
 Currently unlicensed.
+
+
+```
+aura
+├─ assets
+│  ├─ animations
+│  ├─ icons
+│  ├─ logos
+│  ├─ mockups
+│  │  └─ aura-dashboard-mockup.png
+│  └─ wallpapers
+├─ backend
+├─ configs
+├─ database
+├─ docker
+├─ docs
+│  ├─ architecture.md
+│  ├─ decisions.md
+│  ├─ ideas.md
+│  ├─ principles.md
+│  ├─ roadmap.md
+│  └─ vision.md
+├─ frontend
+│  ├─ eslint.config.js
+│  ├─ index.html
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ public
+│  │  ├─ favicon.svg
+│  │  └─ icons.svg
+│  ├─ README.md
+│  ├─ src
+│  │  ├─ app
+│  │  ├─ App.tsx
+│  │  ├─ components
+│  │  │  ├─ ambient
+│  │  │  ├─ comon
+│  │  │  ├─ ui
+│  │  │  └─ workspace
+│  │  ├─ hooks
+│  │  ├─ index.css
+│  │  ├─ lib
+│  │  ├─ main.tsx
+│  │  ├─ pages
+│  │  ├─ styles
+│  │  ├─ themes
+│  │  ├─ types
+│  │  └─ utils
+│  ├─ tsconfig.app.json
+│  ├─ tsconfig.json
+│  ├─ tsconfig.node.json
+│  └─ vite.config.ts
+├─ README.md
+└─ scripts
+
+```
