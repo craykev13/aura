@@ -1,0 +1,10 @@
+- The user is always in control.
+- Beautiful software is usable software.
+- Simplicity before complexity.
+- Automation should be explainable.
+- AI should reduce cognitive load.
+- Every feature must earn its place.
+- Customization is a first-class feature.
+- Design for trust, not novelty.
+- Build systems that grow with the user.
+- Software should communicate through subtlety, not distraction.
