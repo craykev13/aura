@@ -1,6 +1,6 @@
 # AURA
 
-![AURA dashboard mockup](assets/mockup/aura-dashboard-mockup.png)
+![AURA dashboard mockup](assets/mockups/aura-dashboard-mockup.png)
 
 > An AI Chief of Staff built to help knowledge workers manage emails, documents, projects, and workflows through intelligent automation.
 
@@ -60,20 +60,24 @@ Instead of waiting for commands, AURA's long-term goal is to understand context,
 ## Tech Stack (Planned)
 
 ### Frontend
+
 - React
 - TypeScript
 - Tailwind CSS
 - Framer Motion
 
 ### Backend
+
 - FastAPI
 - Python
 
 ### Database
+
 - PostgreSQL
 - pgvector
 
 ### AI
+
 - OpenAI
 - Retrieval-Augmented Generation (RAG)
 - Multi-Agent Orchestration
