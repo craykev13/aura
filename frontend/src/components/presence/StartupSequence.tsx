@@ -1,4 +1,5 @@
 import AuraWave from "./AuraWave";
+import StateGlow from "./StateGlow";
 import StatusPulse from "./StatusPulse";
 import { usePresence } from "./usePresence";
 
@@ -8,6 +9,7 @@ export default function StartupSequence() {
   return (
     <main className="startup-sequence">
       <StatusPulse />
+      <StateGlow />
 
       <section className="startup-content">
         <div className="startup-wave-wrap">
