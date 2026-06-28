@@ -1,6 +1,6 @@
 # AURA
 
-![AURA dashboard mockup](assets/mockups/aura-dashboard-mockup.png)
+![AURA dashboard mockup](assets/mockup/aura-dashboard-mockup.png)
 
 > An AI Chief of Staff built to help knowledge workers manage emails, documents, projects, and workflows through intelligent automation.
 
