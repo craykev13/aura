@@ -97,6 +97,7 @@ The goal is to build the platform professionally from the ground up with a stron
 Currently unlicensed.
 
 
+
 ```
 aura
 ├─ assets
@@ -130,16 +131,25 @@ aura
 │  │  ├─ app
 │  │  ├─ App.tsx
 │  │  ├─ components
-│  │  │  ├─ ambient
-│  │  │  ├─ comon
+│  │  │  ├─ common
+│  │  │  ├─ presence
+│  │  │  │  ├─ AmbientBackground.tsx
+│  │  │  │  ├─ AuraWave.tsx
+│  │  │  │  ├─ MotionController.tsx
+│  │  │  │  ├─ PresenceEngine.tsx
+│  │  │  │  ├─ PresenceProvider.tsx
+│  │  │  │  ├─ README.md
+│  │  │  │  ├─ StartupSequence.tsx
+│  │  │  │  ├─ StateGlow.tsx
+│  │  │  │  └─ StatusPulse.tsx
 │  │  │  ├─ ui
 │  │  │  └─ workspace
 │  │  ├─ hooks
 │  │  ├─ index.css
 │  │  ├─ lib
 │  │  ├─ main.tsx
-│  │  ├─ pages
 │  │  ├─ styles
+│  │  │  └─ ambient.css
 │  │  ├─ themes
 │  │  ├─ types
 │  │  └─ utils
