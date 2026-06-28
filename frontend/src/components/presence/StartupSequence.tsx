@@ -1,4 +1,5 @@
 import AuraWave from "./AuraWave";
+import StatusPulse from "./StatusPulse";
 import { usePresence } from "./usePresence";
 
 export default function StartupSequence() {
@@ -6,6 +7,8 @@ export default function StartupSequence() {
 
   return (
     <main className="startup-sequence">
+      <StatusPulse />
+
       <section className="startup-content">
         <div className="startup-wave-wrap">
           <AuraWave state={presence.state === "ready" ? "success" : "loading"} />
