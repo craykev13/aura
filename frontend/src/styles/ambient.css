@@ -1,3 +1,66 @@
+.loading-screen {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+.loading-content {
+  text-align: center;
+  animation: loading-fade-in 1.4s ease forwards;
+}
+
+.loading-logo {
+  margin-top: -32px;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  letter-spacing: 0.34em;
+  font-weight: 600;
+  text-indent: 0.34em;
+  text-shadow: 0 0 40px rgba(139, 92, 246, 0.45);
+}
+
+.loading-message {
+  margin-top: 18px;
+  color: rgba(255, 255, 255, 0.58);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  min-height: 1rem;
+  animation: message-soft-pulse 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes loading-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes message-soft-pulse {
+  from {
+    opacity: 0.45;
+  }
+
+  to {
+    opacity: 0.85;
+  }
+}
+
+.aura-wave {
+  width: min(760px, 82vw);
+  height: 220px;
+  display: block;
+  opacity: 0.96;
+  filter: drop-shadow(0 0 24px rgba(99, 102, 241, 0.45));
+}
+
 .ambient-background {
   position: fixed;
   inset: 0;
@@ -13,35 +76,36 @@
   border-radius: 999px;
   filter: blur(90px);
   opacity: 0.45;
-  animation: aura-drift 8s ease-in-out infinite alternate;
+  animation: aura-drift 30s ease-in-out infinite alternate;
+  will-change: transform;
 }
 
 .glow-1 {
-  top: 12%;
-  left: 12%;
+  top: 10%;
+  left: 8%;
   background: rgba(59, 130, 246, 0.55);
 }
 
 .glow-2 {
+  top: 14%;
   right: 8%;
-  top: 18%;
-  background: rgba(139, 92, 246, 0.45);
-  animation-duration: 36s;
+  background: rgba(139, 92, 246, 0.42);
+  animation-duration: 38s;
 }
 
 .glow-3 {
   left: 35%;
-  bottom: 5%;
-  background: rgba(20, 184, 166, 0.28);
-  animation-duration: 44s;
+  bottom: 0%;
+  background: rgba(20, 184, 166, 0.25);
+  animation-duration: 48s;
 }
 
 @keyframes aura-drift {
   from {
-    transform: translate3d(-30px, -20px, 0) scale(1);
+    transform: translate3d(-35px, -25px, 0) scale(1);
   }
 
   to {
-    transform: translate3d(45px, 35px, 0) scale(1.15);
+    transform: translate3d(50px, 40px, 0) scale(1.15);
   }
 }
