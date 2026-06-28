@@ -1,12 +1,12 @@
 import AmbientBackground from "./components/presence/AmbientBackground";
+import AuraEnvironment from "./components/presence/AuraEnvironment";
 import { PresenceProvider } from "./components/presence/PresenceProvider";
-import StartupSequence from "./components/presence/StartupSequence";
 
 export default function App() {
   return (
     <PresenceProvider>
       <AmbientBackground />
-      <StartupSequence />
+      <AuraEnvironment />
     </PresenceProvider>
   );
 }
