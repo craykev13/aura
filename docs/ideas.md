@@ -2,8 +2,6 @@
 
 ## Ambient State Engine
 
-Inspired by Mercedes-Benz ambient lighting.
-
 Instead of traditional loading indicators, AURA communicates its current state through subtle background color, movement, and glow.
 
 States:
