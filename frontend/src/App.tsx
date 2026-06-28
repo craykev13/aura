@@ -5,15 +5,16 @@ export default function App() {
     <>
       <AmbientBackground />
 
-      <h1
+      <main
         style={{
           position: "relative",
+          zIndex: 1,
           color: "white",
           padding: "40px",
         }}
       >
-        AURA
-      </h1>
+        <h1>AURA</h1>
+      </main>
     </>
   );
 }
