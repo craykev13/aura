@@ -134,6 +134,7 @@ aura
 │  │  │  ├─ common
 │  │  │  ├─ presence
 │  │  │  │  ├─ AmbientBackground.tsx
+│  │  │  │  ├─ AuraEnvironment.tsx
 │  │  │  │  ├─ AuraWave.tsx
 │  │  │  │  ├─ MotionController.tsx
 │  │  │  │  ├─ PresenceEngine.tsx
@@ -141,9 +142,11 @@ aura
 │  │  │  │  ├─ README.md
 │  │  │  │  ├─ StartupSequence.tsx
 │  │  │  │  ├─ StateGlow.tsx
-│  │  │  │  └─ StatusPulse.tsx
+│  │  │  │  ├─ StatusPulse.tsx
+│  │  │  │  └─ usePresence.ts
 │  │  │  ├─ ui
 │  │  │  └─ workspace
+│  │  │     └─ WorkspaceShell.tsx
 │  │  ├─ hooks
 │  │  ├─ index.css
 │  │  ├─ lib
@@ -153,6 +156,7 @@ aura
 │  │  ├─ themes
 │  │  ├─ types
 │  │  └─ utils
+│  │     └─ greeting.ts
 │  ├─ tsconfig.app.json
 │  ├─ tsconfig.json
 │  ├─ tsconfig.node.json

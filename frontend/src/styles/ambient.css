@@ -63,6 +63,7 @@ body {
 
 .aura-wave {
   width: min(760px, 82vw);
+  justify-self: center;
   height: 220px;
   display: block;
   opacity: 0.96;
@@ -540,6 +541,7 @@ body {
   .aura-nav-item.active {
     background: rgba(59, 130, 246, 0.22);
     color: white;
+    max-width: 70%;
   }
   
   .aura-main {

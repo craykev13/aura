@@ -1,6 +1,7 @@
 import AuraWave from "../presence/AuraWave";
 import StateGlow from "../presence/StateGlow";
 import StatusPulse from "../presence/StatusPulse";
+import { getGreeting } from "../../utils/greeting";
 
 const navItems = [
   "Home",
@@ -57,7 +58,7 @@ export default function WorkspaceShell() {
         </header>
 
         <section className="aura-hero">
-          <h1>Good Evening, Kevin.</h1>
+          <h1>{getGreeting()}, Kevin.</h1>
           <p>AURA is ready to assist you.</p>
           <div className="aura-hero-wave">
             <AuraWave state="success" />
