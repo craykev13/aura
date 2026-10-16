@@ -146,7 +146,13 @@ aura
 │  │  │  │  └─ usePresence.ts
 │  │  │  ├─ ui
 │  │  │  └─ workspace
-│  │  │     └─ WorkspaceShell.tsx
+│  │  │     ├─ ActivityPanel.tsx
+│  │  │     ├─ Sidebar.tsx
+│  │  │     ├─ Topbar.tsx
+│  │  │     ├─ WelcomePanel.tsx
+│  │  │     ├─ widgets
+│  │  │     ├─ Workspace.tsx
+│  │  │     └─ WorkspaceContent.tsx
 │  │  ├─ hooks
 │  │  ├─ index.css
 │  │  ├─ lib

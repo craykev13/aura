@@ -1,6 +1,6 @@
 import StartupSequence from "./StartupSequence";
 import { usePresence } from "./usePresence";
-import WorkspaceShell from "../workspace/WorkspaceShell";
+import Workspace from "../workspace/Workspace";
 
 export default function AuraEnvironment() {
   const { state } = usePresence();
@@ -14,7 +14,7 @@ export default function AuraEnvironment() {
       </div>
 
       <div className={showWorkspace ? "workspace-fade workspace-fade--in" : "workspace-fade"}>
-        <WorkspaceShell />
+        <Workspace />
       </div>
     </>
   );
